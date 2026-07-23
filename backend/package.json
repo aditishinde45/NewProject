@@ -2,12 +2,12 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "/app.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon /app.js",
-    "start": "node /app.js",
-    "prod": "pm2 /app.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "prod": "pm2 app.js"
   },
   "keywords": [],
   "author": "",
