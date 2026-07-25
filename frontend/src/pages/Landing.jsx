@@ -117,7 +117,7 @@ export default function Landing() {
             <div className="brand-mark">
               <Sparkles className="brand-icon" />
             </div>
-            <span className="brand-name">InterviewIQ</span>
+            <span className="brand-name">interviewIQ</span>
           </div>
           <nav className="nav-links">
             <a href="#features">Features</a>
@@ -126,7 +126,7 @@ export default function Landing() {
           </nav>
           <div className="header-actions">
             <Link to="/login" className="btn btn-ghost">Sign In</Link>
-            <Link to="/app" className="btn btn-primary">Get Started</Link>
+            <Link to="/login" className="btn btn-primary">Get Started</Link>
           </div>
         </div>
       </header>
@@ -155,7 +155,7 @@ export default function Landing() {
               confidence analysis, personalized recommendations, and track your improvement over time.
             </p>
             <div className="hero-ctas">
-              <Link to="/app/interview" className="btn btn-primary btn-lg">
+              <Link to="/login" className="btn btn-primary btn-lg">
                 Start Free Interview
                 <ArrowRight size={16} />
               </Link>
@@ -164,11 +164,11 @@ export default function Landing() {
                 Watch Demo
               </button>
             </div>
-            <div className="hero-trust">
+            {/* <div className="hero-trust">
               <span><Check size={16} className="text-success" /> No credit card required</span>
               <span><Check size={16} className="text-success" /> 3 free interviews</span>
               <span><Check size={16} className="text-success" /> Cancel anytime</span>
-            </div>
+            </div> */}
           </motion.div>
 
           {/* Hero preview card */}
@@ -281,7 +281,7 @@ export default function Landing() {
           <div className="cta-content">
             <h2>Ready to ace your next interview?</h2>
             <p>Join thousands of candidates who improved their interview performance with AI-powered practice.</p>
-            <Link to="/app" className="btn btn-white btn-lg">
+            <Link to="/login" className="btn btn-white btn-lg">
               Start Free Interview
               <ArrowRight size={16} />
             </Link>

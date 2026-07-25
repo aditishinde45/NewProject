@@ -153,6 +153,8 @@ body {
 
 .auth-form {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .input-group {
