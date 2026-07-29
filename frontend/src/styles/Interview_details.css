@@ -1,0 +1,113 @@
+.contents{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.domains{
+    width: 70%;
+    min-height: 10rem;
+    border-radius: 1rem;
+     box-shadow:
+        0px 1px 3px rgba(0,0,0,0.08),
+        0px 8px 24px rgba(0,0,0,0.08);
+
+    border:1px solid rgba(16,24,40,0.05);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.cards{
+    width: 30%;
+    height: 3rem;
+    border-radius: 1rem;
+     box-shadow:
+        0px 1px 3px rgba(0,0,0,0.08),
+        0px 8px 24px rgba(0,0,0,0.08);
+
+    border:1px solid rgba(16, 40, 38, 0.05);
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.interview_domain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cards:hover{
+    box-shadow:
+        0px 1px 3px rgba(0,0,0,0.08),
+        0px 8px 24px rgba(0,0,0,0.08);
+
+    border:1px solid rgba(139, 204, 182, 0.9);
+    margin-bottom: 1rem;
+    background-color: rgb(236, 249, 245);
+    cursor: pointer;
+    color: rgba(12, 141, 98, 0.9);
+}
+.domains1{
+    width: 70%;
+    min-height: 8rem;
+    border-radius: 1rem;
+     box-shadow:
+        0px 1px 3px rgba(0,0,0,0.08),
+        0px 8px 24px rgba(0,0,0,0.08);
+
+    border:1px solid rgba(16,24,40,0.05);
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.start-btn{
+    background-color: rgba(12, 141, 98, 0.9);
+    border: none;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 30%;
+    font-size: medium;
+    color: white;
+}
+.start-btn:hover{
+    color: black;
+    cursor: pointer;
+}
+@media(max-width:940px){
+    .cards{
+        width: 45%;
+    }
+}
+@media(max-width:650px){
+   .interview_domain{
+        flex-direction: column;
+    }
+    .domains{
+        width: 90%;
+    }
+    .cards{
+        width: 90%;
+    }
+    .domains1{
+        flex-direction: column;
+    }
+    .start-btn{
+        width: 95%;
+        height: 2rem;
+    }
+}

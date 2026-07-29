@@ -3,7 +3,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { Sparkles } from "lucide-react";
 import Resume from "./Resume.jsx";
-import Interview from "./Inteview.jsx"
+import Inteview_details from "./Inteview_details.jsx"
 // import { Stars } from "lucide-react";
 import "../styles/profile.css";
 import Dashboard from "./Dashboard.jsx";
@@ -86,7 +86,7 @@ function Profile() {
         {mainOpen==1 && <Dashboard/>}
         {mainOpen==2 && <Account/>}
        { mainOpen==3 && <Resume/>}
-       {mainOpen==4 && <Interview/>}
+       {mainOpen==4 && <Inteview_details/>}
        {mainOpen==5 && <Settings/>}
       </div>
     </>
